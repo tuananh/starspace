@@ -1,0 +1,3 @@
+[submodule "vendor/StarSpace"]
+	path = vendor/StarSpace
+	url = https://github.com/facebookresearch/StarSpace.git
