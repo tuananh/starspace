@@ -1,0 +1,23 @@
+{
+  "name": "starspace",
+  "version": "0.0.1-rc0",
+  "description": "StarSpace native bindings for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tuananh/starspace.git"
+  },
+  "keywords": [
+    "starspace",
+    "classification"
+  ],
+  "author": "Tuan Anh Tran <me@tuananh.org> (https://tuananh.org)",
+  "license": "MIT",
+  "os": [
+    "darwin",
+    "linux"
+  ]
+}
