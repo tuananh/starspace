@@ -4,6 +4,7 @@
   "description": "StarSpace native bindings for Node.js",
   "main": "index.js",
   "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,18 @@
   "os": [
     "darwin",
     "linux"
-  ]
+  ],
+  "dependencies": {
+    "nan": "^2.8.0",
+    "node-pre-gyp": "^0.6.39"
+  },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
+  "binary": {
+    "module_name": "starspace",
+    "module_path": "./out/binding/",
+    "host": "https://github.com/tuananh/starspace/releases/download/",
+    "remote_path": "{version}"
+  }
 }
